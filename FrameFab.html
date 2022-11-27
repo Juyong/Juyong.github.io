@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FrameFab</title>
+<style type="text/css">
+.ys01 {
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #57524C;
+}
+.ys02 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #6293A2;
+	text-align: center;
+}
+.ys2 {
+}
+.ys2 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #6293A2;
+	text-align: center;
+}
+.ys2 sup {
+	color: #57524C;
+}
+.ys3 {
+	font-weight: bold;
+}
+.ys3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys3 {
+	text-align: center;
+	color: #57524C;
+}
+.ys3 {
+}
+.ys4 {
+	text-align: center;
+}
+.ys2 .ys2 {
+	color: #57524C;
+}
+.ys5 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys7 {
+	text-align: center;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.teaser {
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: left;
+}
+.text {
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: justify;
+	font-weight: normal;
+}
+.title1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6293A2;
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+}
+.text2 {
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	font-weight: normal;
+}
+.title1 .teaser {
+	text-align: justify;
+}
+.copyright {
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: right;
+}
+.copy {
+	font-family: "Times New Roman", Times, serif;
+	text-align: right;
+	color: #57524C;
+}
+.download {
+}
+.download {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.download {
+	font-weight: bold;
+}
+.download {
+	color: #6293A2;
+}
+body {
+	background-color: #DDDDEB;
+	text-align: center;
+}
+.teaser {
+	text-align: justify;
+}
+.copy1 {
+	text-align: right;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+<table width="1044" align="center" background="photos/test3_new.jpg">
+  <tr>
+    <td width="1044" height="3355" align="center" valign="top"><p>&nbsp;</p>
+      <table width="900">
+      <tr>
+        <td><p align="center" class="ys01">FrameFab: Robotic Fabrication of Frame Shapes</p>
+          <p class="ys2">
+	   Yijiang Huang<sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+	   <a href="http://staff.ustc.edu.cn/~juyong/" target="_new">Juyong Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+	   Xin Hu<sup>1</sup>&nbsp; &nbsp;
+	   Guoxian Song<sup>1</sup>&nbsp; &nbsp;
+	   ZhongYuan Liu<sup>2</sup>&nbsp; &nbsp;
+	   Lei Yu<sup>3</sup>&nbsp; &nbsp;
+	   <a href="http://staff.ustc.edu.cn/~lgliu/" target="_new">&nbsp;Ligang Liu</a><sup>1</sup></p>
+          <p class="ys2"><sup>1</sup><a href="http://www.ustc.edu.cn/" target="_new">University of Science and Technology of China<font color="#6293a2">&nbsp; &nbsp; &nbsp; &nbsp;</font></a><sup>2</sup><a href="http://www.lumei.edu.cn/Templates/cn/html/foreigne/english.html" target="_new">Luxun Academy of Fine Arts<font color="#6293a2">&nbsp; &nbsp; &nbsp; &nbsp;</font></a><sup>3</sup><a href="http://www.tsinghua.edu.cn/" target="_new">Tsinghua University</a><br />
+          </p>
+          <p class="ys2"><p class="ys2">ACM Transactions on Graphics(<a href="https://sa2016.siggraph.org/en/" target="_new">SIGGRAPH Asia</a>) 35(6), 2016.<br/>
+      </tr>
+      <tr>
+        <td><!--<p class="ys02">&nbsp;</p>-->
+          <p class="ys02"><img src="photos/FrameFab-Fig1.jpg" width="880" height="270" /></p></td>
+      </tr>
+      <tr>
+        <td><p class="teaser">Figure 1: <span class="text">Given a frame shape (a), we propose an algorithm for generating a feasible fabrication sequence of struts which guarantees that the already-printed part is in a stable equilibrium state and that the extrusion head avoids collision with the printed part at all fabrication stages. This is verified by a built prototype robotic fabrication system consisting of a 6-axis KUKA robotic arm with a customized extrusion head: (b) and (c) are intermediate fabrication states and (d) is the final fabrication object for the given frame shape (a).</span></p></td>
+      </tr>
+      <tr>
+        <td><span class="title1">Abstract:</span></td>
+      </tr>
+      <tr>
+        <td><p class="teaser"><span class="text">Frame shapes, which are made of struts, have been widely used in many fields, such as art, sculpture, architecture and geometric modeling, etc. An interest in robotic fabrication of frame shapes via spatial thermoplastic extrusion has been increasingly growing in recent years. In this paper, we present a novel algorithm to generate a feasible fabrication sequence for general frame shapes. To solve this non-trivial combinatorial problem, we develop a divide-and-conquer strategy that first decomposes the input frame shape into stable layers via a constrained sparse optimization model. Then we search a feasible sequence for each layer via a local optimization method together with a backtracking strategy. The generated sequence guarantees that the already-printed part is in a stable equilibrium state at all stages of fabrication, and that the 3D printing extrusion head does not collide with the printed part during the fabrication. Our algorithm has been validated by a built prototype robotic fabrication system made by a 6-axis KUKA robotic arm with a customized extrusion head. Experimental results demonstrate the feasibility and applicability of our algorithm.</span></p></td>
+      
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="title1">Video:</span></td>
+      </tr>
+      <tr>
+      <td><p class="teaser"><span class = 'text'>The following two videos show the differences how 3D printing with FDM technology and the proposed robotic fabrication technology print the frame shapes.</span></p></td>
+      </tr>
+      <tr>
+        <td> 
+            <!-- 下面的是一种插入视频方法，html5的方法，支持格式有限最好是h.264的mp4 -->
+            <video width="800" height="600" controls="controls">
+            <source src="Videos/FrameFab_unnatural.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <!-- 下面的是另一种插入视频方法，可以直接插入wmv视频，但部分浏览器可能需要插件 -->
+            <!-- <embed src="FrameFab_unnatural.wmv" type="video/x-ms-wmv" width=600  -->
+                <!-- height=400 autoStart="1" showControls="1" showstatusbar="1" />  -->
+        </td>
+      </tr>
+      <tr>
+        <td><p class="teaser">Video 1: <span class="text">Frame shape fabrication by 3D printing with FDM technology. As FDM technology alway deposits the material layer by layer to approximate the input 3D model, it is a unnatural way and not suitable for printing the frame shapes.</span></p></td>
+        
+        </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td> 
+            <video width="800" height="600" controls="controls">
+            <source src="Videos/FrameFab_printing.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <!-- 下面的是另一种插入视频方法，可以直接插入wmv视频，但部分浏览器可能需要插件 -->
+            <!-- <embed src="FrameFab_unnatural.wmv" type="video/x-ms-wmv" width=600  -->
+                <!-- height=400 autoStart="1" showControls="1" showstatusbar="1" />  -->
+        </td>
+      </tr>
+      <tr>
+        <td><p class="teaser">Video 2: <span class="text">Frame shape fabrication by the proposed robotic fabrication technology. It fabricates each strut in a single stroke by extruding the filament directly in 3D space. The fabrication order of the struts is optimized by our path planning algorithm to avoid the collision constraints, and the printed part is guaranteed to be in a stable equilibrium during all the fabrication process.</span></p></td>
+        
+      </tr>
+      <tr>
+        <td>&nbsp;&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="title1">Source Code and Hardware Setup:</span></td>
+      </tr>
+      <tr>
+      <td><p class="teaser"><span class = 'text'>We release the source code on how to design the fabrication order of the struts via the <a href="https://github.com/Juyong/FrameFab">link</a>. Besides, the hardware setup is also very important for the fabrication system, and some technical details are given in the <a href="Papers/FrameFab_Supplementary.pdf">supplementary material</a>.</span></p></td>
+      </tr>
+      <tr>
+      
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="title1">Acknowledgements:</span></td>
+      </tr>
+      <tr>
+        <td><p class="teaser"><span class = 'text'>We thank Zishun Liu, Shizhe Zhou, and Zhipei Yan for the insightful discussions and the anonymous reviewers for their valuable comments. This work was supported by the National Key R&D Program of China (No. 2016YFC0800501), the National Natural Science Foundation of China (Nos. 61672481, 61672482, 61303148, 11526212), and the One Hundred Talent Project of the Chinese Academy of Sciences.</span></p></td>
+      </tr>
+      <tr>
+        <td><p class="text2"></p></td>
+      </tr>
+      <tr>
+        <td><span class="title1">BibTex:</span></td>
+      </tr>
+      <tr>
+        <td><p class="teaser"><span class = 'text'>@article{HuangZHSLYL2016,<br />
+author = {Yijiang Huang and Juyong Zhang and Xin Hu and Gongxian Song and Zhongyuan Liu and Lei Yu and Ligang Liu},<br />
+title = {FrameFab: Robotic Fabrication of Frame Shapes},<br />
+journal = {ACM Transactions on Graphics},<br />
+volume = {35},<br />
+issue = {6},<br />
+pages = {},<br />
+year = {2016}<br />
+} </span></p></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="title1">Downloads:</span></td>
+      </tr>
+      <tr>
+        <td><p class="teaser"><span class = 'text'>Disclaimer: The paper listed on this page is copyright-protected. By clicking on the paper link below, you confirm that you or your institution have the right to access the corresponding pdf file.</span></p></td>
+      </tr>
+      <tr>
+        <td><ul>
+          <li class="download"><a href="Papers/FrameFab.pdf">Paper</a></li>
+          <li class="download"><a href="Papers/FrameFab_Supplementary.pdf">Supplementary materials</a></li>
+          <li class="download"><a href="Videos/FrameFab-high.mp4">Video</a></li>
+          <li class="download"><a href="https://github.com/Juyong/FrameFab">Code</a></li>
+        </ul></td>
+      </tr>
+    </table>
+      <table width="900" align="center">
+        <tr>
+          <td><hr /></td>
+        </tr>
+        <tr>
+          <td class="copy1">Copyright &copy; 2016 <a href="http://gcl.ustc.edu.cn/" target="_new">GCL</a>&nbsp;, USTC</td>
+        </tr>
+      </table>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>

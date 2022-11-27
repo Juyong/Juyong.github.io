@@ -1,0 +1,95 @@
+# jemdoc: menu{MENU}{index.html}
+= Code & Software
+
+
+== Disentangled 3D Face Representation
+~~~
+{}{img_left}{photos/NonlinearFaceRepresentation.jpg}{alt text}{1000}{468}{https://github.com/zihangJiang/DR-Learning-for-3D-Face}
+~~~
+
+~~~
+[https://github.com/zihangJiang/DR-Learning-for-3D-Face Disentangled3DFaceRepresentation] is the implementation of our CVPR 2019 paper "Disentangled Representation Learning for 3D Face Shape". A given 3D face shape is decomposed into identity part andexpression part, which are both encoded in a nonlinear way. Our model can be used for 3D face related applications like reconstruction and expression transfer.
+~~~
+
+
+== 3DFace Dataset
+~~~
+{}{img_left}{photos/FaceDataset.jpg}{alt text}{1000}{215}{https://github.com/Juyong/3DFace}
+~~~
+
+~~~
+[https://github.com/Juyong/3DFace 3DFace Dataset] contains CoarseData and FineData augmented from 3131 images of 300-W with the method described in the paper [https://arxiv.org/abs/1708.00980 CNN-based Real-time Dense Face Reconstruction with Inverse-rendered Photo-realistic Face Images]. CoarseData is constructed by varying poses and expressions of the original images. FineData is constructed by transferring details from other images to the original images. We augment each image 30 times for both CoarseData and FineData.
+~~~
+
+== AASolver
+~~~
+{}{img_left}{photos/AASolver.jpg}{alt text}{1000}{195}{https://github.com/bldeng/AASolver}
+~~~
+
+~~~
+[https://github.com/bldeng/AASolver AASolver] is a C\+\+ numerical optimization library for geometry optimization and physics simulation. This code implements the anderson acceleration algorithm from the paper [https://arxiv.org/abs/1805.05715 Anderson Acceleration for Geometry Optimization and Physics Simulation]. AASolver is released under [https://opensource.org/licenses/BSD-3-Clause BSD 3-Clause License].
+~~~
+
+== Mesh SDFilter
+~~~
+{}{img_left}{photos/MeshSDFilter.jpg}{alt text}{1000}{430}{https://github.com/bldeng/MeshSDFilter}
+~~~
+
+~~~
+[https://github.com/bldeng/MeshSDFilter MeshSDFilter] is a C\+\+ library for mesh filtering. This code implements the mesh normal filtering algorithm from the paper [https://arxiv.org/abs/1712.03574 Static/Dynamic Filtering for Mesh Geometry]. MeshSDFilter is released under [https://opensource.org/licenses/BSD-3-Clause BSD 3-Clause License].
+~~~
+
+== Guided Mesh Normal Filtering
+~~~
+{}{img_left}{photos/GuideFilter.jpg}{alt text}{1000}{192}{http://staff.ustc.edu.cn/~juyong/GuidedFilter.html}
+~~~
+
+~~~
+[https://github.com/bldeng/GuidedDenoising GuidedDenoising] is a C\+\+ library for mesh denoising, where the noise type could be any types like gaussian noise and impulsive noise. This library also includes the implementations of some classical denoising algorithms include [http://dl.acm.org/citation.cfm?id=882368 bilateral mesh denoising], [http://dl.acm.org/citation.cfm?id=882367 Non-iterative, feature-preserving mesh smoothing], [http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4276075&tag=1 Fast and Effective Feature-Preserving Mesh Denoising], [http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5674028 Bilateral Normal Filtering for Mesh Denoising], [http://dl.acm.org/citation.cfm?id=2461965 Mesh denoising via L0 minimization]. GuidedDenoising is released under [http://www.gnu.org/licenses/lgpl-3.0.en.html GNU LGPL V3 License].
+~~~
+
+
+== Local Barycentric Coordinates
+~~~
+{}{img_left}{photos/LBC.png}{alt text}{1000}{255}{http://staff.ustc.edu.cn/~juyong/LBC.html}
+~~~
+
+~~~
+[http://github.com/bldeng/LBC LBC] is a C\+\+ library for computing local barycentric coordinates. [http://github.com/bldeng/LBC LBC] is released under [http://www.gnu.org/licenses GNU General Public License].
+~~~
+
+== WireFrameFabrication
+~~~
+{}{img_left}{photos/WireFabrication.jpg}{alt text}{1000}{366}{https://github.com/Juyong/FrameFab}
+~~~
+
+~~~
+[https://github.com/Juyong/FrameFab WireFrameFabrication] is a C\+\+ library for wireframe fabrication sequence design. This code implements the algorithm from the paper [https://dl.acm.org/citation.cfm?id=2982401 FrameFab: Robotic Fabrication of Frame Shapes]. WireFrameFabrication is released under [http://www.gnu.org/licenses GNU General Public License].
+~~~
+
+== $\ell_{1}$ Subdivision Scheme for noisy curve and surface datas
+~~~
+{}{img_left}{photos/L1SubdivisionExamples.png}{alt text}{1000}{388}
+~~~
+
+~~~
+[Papers/L1-Subdivision.zip $\ell_1$-Subdivision] is a Python library for curve and surface denoising.
+~~~
+
+== Multichannel Total Variation Minimization
+~~~
+{}{img_left}{photos/MTV.png}{alt text}{1000}{266}
+~~~
+
+~~~
+[Papers/MTVL1solvers.zip MTV—$\ell_{1}$ Solver] is matlab library for solving multichannel total variation based models, especially for image restoration.
+~~~
+
+== Convex Active Contour for Interactive Image Segmentation
+~~~
+{}{img_left}{photos/CAC-Segmentation.png}{alt text}{1000}{264}
+~~~
+
+~~~
+[Papers/CAC_Segmentation.zip CAC—Segmentation] is a software for interactive image segmentation by inputing foreground and background seeds as shown in the above figures as red curve and blur curve.
+~~~

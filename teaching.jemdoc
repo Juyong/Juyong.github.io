@@ -1,0 +1,45 @@
+# jemdoc: menu{MENU}{index.html}
+= Teaching
+
+
+== Introduction to Algorithm
+This course covers topics including sorting, Binary Search Trees, Red-Black Trees, Dynamic programming, Greedy Algorithms, Graph Algorithms, Linear Programming, String Matching and also will introduce some advanced topics like graph cut based texture synthesis and surface registration.
+~~~
+2022 Spring, Undergraduate Course\n
+2021 Spring, Undergraduate Course\n
+2020 Spring, Undergraduate Course\n
+2019 Spring, Undergraduate Course\n
+2018 Spring, Undergraduate Course\n
+2017 Spring, Undergraduate Course\n
+2016 Fall, Undergraduate Course
+~~~
+
+== Wavelet Analysis
+Wavelet is a mathematical technology developed in last 80th, which have important application in functional theory, differential equation, signal analysis and image processing. As a beginning course on wavelet analysis, the course includes Fourier analysis and transformation, Gabor transformation and wavelet transformation. The Mallat’s multi-resolution analysis, Daubechies’s orthogonal wavelet construction and wavelet package are introduced. In the end, some basic application of wavelet on image and geometric processing is discussed.
+~~~
+2015 Spring, Undergraduate Course
+~~~
+
+== Digital Geometry Processing
+This course provides an introduction to digital geometry processing, a subfield of computer graphics. This course will cover basic mathematical foundations for studying 3D surfaces from a discrete differential geometric standpoint and present the full geometry processing pipeline, including surface representation, 3D data scanning, registration, surface reconstruction, mesh smoothing, parameterization, and surface deformation.
+~~~
+2016 Spring, Graduate Course
+~~~
+
+== Numerical Optimization
+This course covers classical optimization approaches (line search method, trust region method, quasi-newton method, penalty method, augmented Lagrangian method, etc...) and the algorithms (split bregman method, alternative direction method, etc...) developed to solve sparse optimization problems.
+~~~
+2018 Fall, Graduate Course\n
+2015 Fall, Graduate Course\n
+2014 Fall, Graduate Course\n
+2014 Spring, Graduate Course\n
+2013 Spring, Graduate Course
+~~~
+
+== Digital Image Processing
+This course covers classical approaches to image processing, PDE based method for image processing and some selected advanced topics.
+~~~
+2017 Fall, Graduate Course\n
+2013 Fall, Graduate Course\n
+2012 Fall, Graduate Course
+~~~

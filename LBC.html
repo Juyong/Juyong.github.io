@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Local Barycentric Coordinates</title>
+<style type="text/css">
+.ys01 {
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #57524C;
+}
+.ys02 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #6293A2;
+	text-align: center;
+}
+.ys2 {
+}
+.ys2 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #6293A2;
+	text-align: center;
+}
+.ys2 sup {
+	color: #57524C;
+}
+.ys3 {
+	font-weight: bold;
+}
+.ys3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys3 {
+	text-align: center;
+	color: #57524C;
+}
+.ys3 {
+}
+.ys4 {
+	text-align: center;
+}
+.ys2 .ys2 {
+	color: #57524C;
+}
+.ys5 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys7 {
+	text-align: center;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.teaser {
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: left;
+}
+.text {
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: justify;
+	font-weight: normal;
+}
+.title1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6293A2;
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+}
+.text2 {
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	font-weight: normal;
+}
+.title1 .teaser {
+	text-align: justify;
+}
+.copyright {
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: right;
+}
+.copy {
+	font-family: "Times New Roman", Times, serif;
+	text-align: right;
+	color: #57524C;
+}
+.download {
+}
+.download {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.download {
+	font-weight: bold;
+}
+.download {
+	color: #6293A2;
+}
+body {
+	background-color: #DDDDEB;
+	text-align: center;
+}
+.teaser {
+	text-align: justify;
+}
+.copy1 {
+	text-align: right;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+<table width="1044" align="center" background="photos/test3_new.jpg">
+  <tr>
+    <td width="1044" height="3355" align="center" valign="top"><p>&nbsp;</p>
+      <table width="900">
+      <tr>
+        <td><p align="center" class="ys01">Local Barycentric Coordinates</p>
+          <p class="ys2">
+	   <a href="http://staff.ustc.edu.cn/~juyong/" target="_new">Juyong Zhang</a><sup>1*</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+	   <a href="http://lgg.epfl.ch/~bdeng/" target="_new">Bailin Deng</a><sup>2*</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+	   <a href="http://home.ustc.edu.cn/~zishun/" target="_new">Zishun Liu</a><sup>1</sup>&nbsp; &nbsp;
+	   <a href="http://saturno.ge.imati.cnr.it/ima/personal/patane/PersonalPage/Patanes_Home_Page/Home.html" target="_new">Giuseppe Patanè</a><sup>3</sup>&nbsp; &nbsp;
+	   <a href="http://lgg.epfl.ch/~bouaziz/" target="_new">Sofien Bouaziz</a><sup>2</sup>&nbsp; &nbsp;
+	   <a href="http://www.inf.usi.ch/hormann/" target="_new">Kai Hormann</a><sup>4</sup>&nbsp; &nbsp;
+	   <a href="http://staff.ustc.edu.cn/~lgliu/" target="_new">&nbsp;Ligang Liu</a><sup>1</sup></p>
+	   <p class="ys2">
+	   <sup>1</sup><a href="http://www.ustc.edu.cn/" target="_new">University of Science and Technology of China</a>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+	   <sup>2</sup><a href="http://www.epfl.ch/" target="_new">École polytechnique fédérale de Lausanne</a>
+	   <br>
+	   <!--</p>
+	   <p  class="ys2">-->
+	   <sup>3</sup><a href="http://www.ge.imati.cnr.it/" target="_new">CNR - Istituto di Matematica Applicata e Tecnologie Informatiche</a>&nbsp;&nbsp;&nbsp; 
+	   <sup>4</sup><a href="http://www.usi.ch/" target="_new">Università della Svizzera italiana</a>
+	   </p>
+	   <p  class="ys2"> <font color="#888888"><sup>*</sup>Joint first authors</p>
+          <p class="ys2">ACM Transactions on Graphics 2014<br/>
+          (Proc.<a href="http://sa2014.siggraph.org/simp/" target="_new">SIGGRAPH ASIA 2014</a>) </p></td>
+      </tr>
+      <tr>
+        <td><!--<p class="ys02">&nbsp;</p>-->
+          <p class="ys02"><img src="photos/lbc_teaser.png" width="880" height="204" /></p></td>
+      </tr>
+      <tr>
+        <td><p class="teaser">Teaser: <span class="text">Using LBC for 3D cage-based manipulation allows for local, smooth, and shape-aware deformations. Only parts near the manipulated control points are deformed, as indicated by the logarithmic color-coding of the displacement magnitude.</span></p></td>
+      </tr>
+      <tr>
+        <td><p class="title1">Abstract:</p></td>
+      </tr>
+      <tr>
+        <td><p class="text2">Barycentric coordinates yield a powerful and yet simple paradigm to interpolate data values on polyhedral domains. They represent interior points of the domain as an affine combination of a set of control points, defining an interpolation scheme for any function defined on a set of control points. Numerous barycentric coordinate schemes have been proposed satisfying a large variety of properties. However, they typically define interpolation as a combination of all control points. Thus a local change in the value at a single control point will create a global change by propagation into the whole domain. In this context, we present a family of local barycentric coordinates (LBC), which select for each interior point a small set of control points and satisfy common requirements on barycentric coordinates, such as linearity, non-negativity, and smoothness. LBC are achieved through a convex optimization based on total variation, and provide a compact representation that reduces memory footprint and allows for fast deformations. Our experiments show that LBC provide more local and finer control on shape deformation than previous approaches, and lead to more intuitive deformation results.</p></td>
+      </tr>
+      <tr>
+        <td><p class="title1">Formulation:</p></td>
+      </tr>
+      <tr>
+        <td><span class="text"><img src="photos/LBC-formulation.png" width="440" height="120" /></span></td>
+      </tr>
+      <tr>
+        <td><p class="text2">LBC formulation minimizes the sum of total variation (TV) for all coordinate functions, subject to the constraints of reproduction, partition of unity, non-negativity, linearity and Lagrange property.</p></td>
+      </tr>
+      <tr>
+        <td><p class="title1">Results:</p></td>
+      </tr>
+      <tr>
+        <td><span class="text"><img src="photos/geodesic.png" width="880" height="145" /></span></td>
+      </tr>
+      <tr>
+        <td><span class="teaser">Figure 1:</span> <span class="text">Weighted formulation of LBC. Using weighted TV, we can control the level of locality for LBC. From left to right, we show the effect of different functions τ in (11). Monotonically increasing functions τ lead to more local support, while monotonically decreasing functions τ lead to more global support. The rightmost image shows the normalized distance function (12) for the control point.</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="ys02"><img src="photos/cactus.png" width="880" height="463" /></span></td>
+      </tr>
+      <tr>
+        <td><span class="teaser">Figure 2:</span><span class="text"> <span class="text2">Deformation of the cactus model with different control weight functions. The control points in red and in green are subject to rigid and non-rigid transformations, respectively. The color-coding shows the absolute sums of weight functions for the green and red control points, respectively. LBC preserve the shape of the hat, since it is only influenced by the red control points, and deformed by the same rigid transformation. Other coordinate schemes distort the hat shape, due to the influence from the green control points.</span></span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr align="center">
+        <td><img src="photos/gecko.png" width="631" height="442"/></td>
+      </tr>
+      <tr>
+        <td><span class="teaser">Figure 3: </span><span class="text2">The gecko image is deformed using control points close to the tail (in red) and the feet (in green). The color-coding shows the absolute sum of control weight functions for the red control points. The elbow and the head remain fixed with LBC, while being deformed by other weight functions. A comparison of the deformations can be found in the supplementary video.</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><img src="photos/logo.png" width="880" height="233" /></td>
+      </tr>
+      <tr>
+        <td><span class="teaser">Figure 4: </span><span class="text2">Deformation of an image by moving two control points (in green), and color-coding for the magnitude of deformation. LBC not only produce a more local deformation, but also preserve the linear features of the texture better.</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="title1">Acknowledgements:</span></td>
+      </tr>
+      <tr>
+        <td><p class="text2">We thank Antonin Chambolle and the reviewers for their valuable comments and Hao Li for his help on the video. This work has been supported by NSF of China (61222206, 61303148), NSF of Anhui Province, China (1408085QF119), Specialized Research Fund for the Doctoral Program of Higher Education (20133402120002), the EU FP7 Integrated Project IQmulus (FP7-ICT-2011-318787), Swiss National Science Foundation (grant 200021 137626), and the 100 Talents Program of the Chinese Academy of Sciences.</span></td>
+      </tr></p></td>
+      </tr>
+      <tr>
+        <td><p class="text2"></p></td>
+      </tr>
+      <tr>
+        <td><span class="title1">BibTex:</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="text2">@article{Zhang2014,<br />
+author = {Juyong Zhang and Bailin Deng and Zishun Liu and Giuseppe Patanè and Sofien Bouaziz and Kai Hormann and Ligang Liu},<br />
+title = {Local Barycentric Coordinates},<br />
+journal = {ACM Transactions on Graphics},<br />
+volume = {33},<br />
+issue = {6},<br />
+pages = {188:1-188:12},<br />
+year = {2014}<br />
+} </span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="title1">Downloads:</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="text2">Disclaimer: The paper listed on this page is copyright-protected. By clicking on the paper link below, you confirm that you or your institution have the right to access the corresponding pdf file.</span></td>
+      </tr>
+      <tr>
+        <td><ul>
+          <li class="download"><a href="Papers/LBC.pdf">Paper</a></li>
+          <li class="download"><a href="Papers/LBC_Supplementary.pdf">Supplementary materials</a></li>
+          <li class="download"><a href="Papers/LBC_Slides.pdf">Slides</a></li>
+          <li class="download"><a href="Papers/LBC_v8.mp4">Video</a></li>
+          <li class="download"><a href="https://github.com/bldeng/LBC">Code</a></li>
+        </ul></td>
+      </tr>
+    </table>
+      <table width="900" align="center">
+        <tr>
+          <td><hr /></td>
+        </tr>
+        <tr>
+          <td class="copy1">Copyright &copy; 2014 <a href="http://gcl.ustc.edu.cn/" target="_new">GCL</a>&nbsp;, USTC</td>
+        </tr>
+      </table>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Guided Mesh Normal Filtering</title>
+<style type="text/css">
+.ys01 {
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #57524C;
+}
+.ys02 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #6293A2;
+	text-align: center;
+}
+.ys2 {
+}
+.ys2 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #6293A2;
+	text-align: center;
+}
+.ys2 sup {
+	color: #57524C;
+}
+.ys3 {
+	font-weight: bold;
+}
+.ys3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys3 {
+	text-align: center;
+	color: #57524C;
+}
+.ys3 {
+}
+.ys4 {
+	text-align: center;
+}
+.ys2 .ys2 {
+	color: #57524C;
+}
+.ys5 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys6 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ys7 {
+	text-align: center;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.teaser {
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: left;
+}
+.text {
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: justify;
+	font-weight: normal;
+}
+.title1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6293A2;
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+}
+.text2 {
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	font-weight: normal;
+}
+.title1 .teaser {
+	text-align: justify;
+}
+.copyright {
+	font-family: "Times New Roman", Times, serif;
+	color: #57524C;
+	text-align: right;
+}
+.copy {
+	font-family: "Times New Roman", Times, serif;
+	text-align: right;
+	color: #57524C;
+}
+.download {
+}
+.download {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.download {
+	font-weight: bold;
+}
+.download {
+	color: #6293A2;
+}
+body {
+	background-color: #DDDDEB;
+	text-align: center;
+}
+.teaser {
+	text-align: justify;
+}
+.copy1 {
+	text-align: right;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+<table width="1044" align="center" background="photos/test3_new.jpg">
+  <tr>
+    <td width="1044" height="3355" align="center" valign="top"><p>&nbsp;</p>
+      <table width="900">
+      <tr>
+        <td><p align="center" class="ys01">Guided Mesh Normal Filtering</p>
+          <p class="ys2">
+          Wangyu Zhang<sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	   <a href="http://bdeng.me/" target="_new">Bailin Deng</a><sup>2,3</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+	   <a href="http://staff.ustc.edu.cn/~juyong/" target="_new">Juyong Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;
+	   <a href="http://lgg.epfl.ch/~bouaziz/" target="_new">Sofien Bouaziz</a><sup>2</sup>&nbsp; &nbsp;
+	   <a href="http://staff.ustc.edu.cn/~lgliu/" target="_new">&nbsp;Ligang Liu</a><sup>1</sup></p>
+	   <p class="ys2">
+	   <sup>1</sup><a href="http://www.ustc.edu.cn/" target="_new">University of Science and Technology of China</a>&nbsp; &nbsp;&nbsp; 
+	   <sup>2</sup><a href="http://www.epfl.ch/" target="_new">École polytechnique fédérale de Lausanne</a>&nbsp;&nbsp;&nbsp; 
+	   <sup>3</sup><a href="http://www2.hull.ac.uk/" target="_new">University of Hull</a>&nbsp;&nbsp;&nbsp; 
+          <p class="ys2">Computer Graphics Forum 2015<br/>
+          (Proc.Pacific Graphics 2015) </p></td>
+      </tr>
+      <tr>
+        <td><!--<p class="ys02">&nbsp;</p>-->
+          <p class="ys02"><img src="photos/Guided-teaser.png" width="880" height="355" /></p></td>
+      </tr>
+      <tr>
+        <td><p class="teaser">Teaser: <span class="text">The pipeline of our denoising method by using the guided normal filtering strategy, using two faces close to sharp features on the ground truth mesh (shown in blue) to demonstrate our patch-based construction of the guidance normals. The ground truth normals and the guidance normals are shown in red and green, respectively. The color coding shows the angles between the ground truth and the guidance normals, which gradually decrease during the iterations.</span></p></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><p class="title1">Contributions:</p></td>
+      </tr>
+      <tr>
+        <td><p class="text">
+        1, A novel patch-based approach to construct the guidance normal for each face, such that the joint bilateral filter averages normals that belong to a common smooth region, while preserving sharp changes of normals that indicate features.
+        <br>
+	   <!--</p>
+	   <p  class="ys2">-->
+       2, The proposed guided mesh normal filtering method is successfully applied in mesh denoising problem. It provides a reliable estimation of the true normal even with a high-level of noise. The effectiveness of our approach is validated by extensive experimental results.
+        <br>
+	   <!--</p>
+	   <p  class="ys2">-->
+       3, The denoising algorithm is quite effective and efficient and the souce code is freely available.
+        </p></td>
+      </tr>
+      <tr>
+        <td><p class="title1">Illustration:</p></td>
+      </tr>
+      <tr>
+        <td><span class="text"><img src="photos/GuideComparison.png" width="880" height="163" /></span></td>
+      </tr>
+      <tr>
+        <td><span class="teaser">Figure 1:</span> <span class="text">Comparison between joint bilateral normal filtering for denoising, using different guidance normal fields. Our patch-based guidance normals produce similar results as using the ground truth normals for guidance, which also demonstrates that a good guidance is important in denoising.</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="ys02"><img src="photos/GuidedNormal.png" width="880" height="264" /></span></td>
+      </tr>
+      <tr>
+        <td><span class="teaser">Figure 2:</span><span class="text"> <span class="text2">Patch-based construction of a guidance normal. For a given face (in blue), the face normals from each candidate patch that contains the given face are shown, together with the consistency measure H computed from Equation (7) in the paper. The patch with the smallest value of H (highlighted in red) is chosen, and its average normal is used as the guidance normal for the given face.</span></span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr align="center">
+        <td><img src="photos/CubeComparison.png" width="880" height="480"/></td>
+      </tr>
+      <tr>
+        <td><span class="teaser">Figure 3: </span><span class="text2">Comparison between our method and the bilateral filtering scheme from [ZFAT11], which can be considered as joint bilateral normal filtering with the input face normals as guidance. The histograms show statistics of the angle error function in Equation (12) across all edges. The robustness of our guidance normal field helps to correctly preserve sharp features even for
+highly noisy meshes. The intensity variance of the Gaussian noise is from left to right 0.2, 0.4, 0.6, 0.8, and 1.0 (see Equation 14).</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><img src="photos/Irregular.png" width="880" height="200" /></td>
+      </tr>
+      <tr>
+        <td><span class="teaser">Figure 4: </span><span class="text2">Denoising a mesh with non-uniform sampling. For the resulting meshes, regions with denser triangulation are highlighted with colored rectangles. The intensity variance of the Gaussian noise applied to this model is 0.4.</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr align="center">
+        <td><img src="photos/ImpulsiveComparison.png" align="middle" width="880" height="113"/></td>
+      </tr>      
+      <tr>
+        <td><span class="teaser">Figure 5: </span><span class="text2">Comparison of denoising algorithms on a mesh with impulsive noise.</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="title1">Acknowledgements:</span></td>
+      </tr>
+      <tr>
+        <td><p class="text2">We thank Justin Solomon and Ruimin Wang for providing the results of [SCBW14] and [WYL*14], and Mingqiang Wei for providing the program of [WYP*15]. We also thank Hao Li, Hongwei Yang and Chao Hu for their help to prepare the results and video. This work was supported by the NSF of China (Nos. 61303148, 61222206), NSF of AnHui Province, China (No. 1408085QF119), Specialized Research Fund for the Doctoral Program of Higher Education under contract (No. 20133402120002), One Hundred Talent Project of the Chinese Academy of Sciences, and Swiss National Science Foundation (grant 200021_137626).</span></td>
+      </tr></p></td>
+      </tr>
+      <tr>
+        <td><p class="text2"></p></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="title1">BibTex:</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="text2">@article{ZhangFilter2015,<br />
+author = {Wangyu Zhang and Bailin Deng and Juyong Zhang and Sofien Bouaziz and Ligang Liu},<br />
+title = {Guided Mesh Normal Filtering},<br />
+journal = {Computer Graphics Forum (Special Issue of Pacific Graphics 2015)},<br />
+volume = {34},<br />
+issue = {7},<br />
+pages = {23-34},<br />
+year = {2015}<br />
+} </span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="title1">Downloads:</span></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><span class="text2">Disclaimer: The paper listed on this page is copyright-protected. By clicking on the paper link below, you confirm that you or your institution have the right to access the corresponding pdf file.</span></td>
+      </tr>
+      <tr>
+        <td><ul>
+          <li class="download"><a href="Papers/GuidedFilter.pdf">Paper</a></li>
+          <li class="download"><a href="Papers/GuidedFilterSupp.pdf">Supplementary materials</a></li>
+          <li class="download"><a href="Papers/GuidedFilter-Slides.pdf">Slides</a></li>
+          <li class="download"><a href="Papers/GuidedDenoising.mp4">Video</a></li>
+          <li class="download"><a href="https://github.com/bldeng/GuidedDenoising">Code</a></li>
+        </ul></td>
+      </tr>
+    </table>
+      <table width="900" align="center">
+        <tr>
+          <td><hr /></td>
+        </tr>
+        <tr>
+          <td class="copy1">Copyright &copy; 2015 <a href="http://gcl.ustc.edu.cn/" target="_new">GCL</a>&nbsp;, USTC</td>
+        </tr>
+      </table>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>

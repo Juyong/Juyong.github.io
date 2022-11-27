@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Code &amp; Software</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">menu</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="group.html">Group</a></div>
+<div class="menu-item"><a href="code.html">Code&nbsp;&amp;&nbsp;Software</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Code &amp; Software</h1>
+</div>
+<h2>Disentangled 3D Face Representation</h2>
+<table class="imgtable"><tr><td>
+<a href="https://github.com/zihangJiang/DR-Learning-for-3D-Face"><img src="photos/NonlinearFaceRepresentation.jpg" alt="alt text" width="1000px" height="468px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="https://github.com/zihangJiang/DR-Learning-for-3D-Face">Disentangled3DFaceRepresentation</a> is the implementation of our CVPR 2019 paper &ldquo;Disentangled Representation Learning for 3D Face Shape&rdquo;. A given 3D face shape is decomposed into identity part and
+expression part, which are both encoded in a nonlinear way. Our model can be used for 3D face related applications like reconstruction and expression transfer.</p>
+</div></div>
+<h2>3DFace Dataset</h2>
+<table class="imgtable"><tr><td>
+<a href="https://github.com/Juyong/3DFace"><img src="photos/FaceDataset.jpg" alt="alt text" width="1000px" height="215px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="https://github.com/Juyong/3DFace">3DFace Dataset</a> contains CoarseData and FineData augmented from 3131 images of 300-W with the method described in the paper <a href="https://arxiv.org/abs/1708.00980">CNN-based Real-time Dense Face Reconstruction with Inverse-rendered Photo-realistic Face Images</a>. CoarseData is constructed by varying poses and expressions of the original images. FineData is constructed by transferring details from other images to the original images. We augment each image 30 times for both CoarseData and FineData.</p>
+</div></div>
+<h2>AASolver</h2>
+<table class="imgtable"><tr><td>
+<a href="https://github.com/bldeng/AASolver"><img src="photos/AASolver.jpg" alt="alt text" width="1000px" height="195px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="https://github.com/bldeng/AASolver">AASolver</a> is a C++ numerical optimization library for geometry optimization and physics simulation. This code implements the anderson acceleration algorithm from the paper <a href="https://arxiv.org/abs/1805.05715">Anderson Acceleration for Geometry Optimization and Physics Simulation</a>. AASolver is released under <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.</p>
+</div></div>
+<h2>Mesh SDFilter</h2>
+<table class="imgtable"><tr><td>
+<a href="https://github.com/bldeng/MeshSDFilter"><img src="photos/MeshSDFilter.jpg" alt="alt text" width="1000px" height="430px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="https://github.com/bldeng/MeshSDFilter">MeshSDFilter</a> is a C++ library for mesh filtering. This code implements the mesh normal filtering algorithm from the paper <a href="https://arxiv.org/abs/1712.03574">Static/Dynamic Filtering for Mesh Geometry</a>. MeshSDFilter is released under <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>.</p>
+</div></div>
+<h2>Guided Mesh Normal Filtering</h2>
+<table class="imgtable"><tr><td>
+<a href="http://staff.ustc.edu.cn/~juyong/GuidedFilter.html"><img src="photos/GuideFilter.jpg" alt="alt text" width="1000px" height="192px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="https://github.com/bldeng/GuidedDenoising">GuidedDenoising</a> is a C++ library for mesh denoising, where the noise type could be any types like gaussian noise and impulsive noise. This library also includes the implementations of some classical denoising algorithms include <a href="http://dl.acm.org/citation.cfm?id=882368">bilateral mesh denoising</a>, <a href="http://dl.acm.org/citation.cfm?id=882367">Non-iterative, feature-preserving mesh smoothing</a>, <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4276075&amp;tag=1">Fast and Effective Feature-Preserving Mesh Denoising</a>, <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5674028">Bilateral Normal Filtering for Mesh Denoising</a>, <a href="http://dl.acm.org/citation.cfm?id=2461965">Mesh denoising via L0 minimization</a>. GuidedDenoising is released under <a href="http://www.gnu.org/licenses/lgpl-3.0.en.html">GNU LGPL V3 License</a>.</p>
+</div></div>
+<h2>Local Barycentric Coordinates</h2>
+<table class="imgtable"><tr><td>
+<a href="http://staff.ustc.edu.cn/~juyong/LBC.html"><img src="photos/LBC.png" alt="alt text" width="1000px" height="255px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="http://github.com/bldeng/LBC">LBC</a> is a C++ library for computing local barycentric coordinates. <a href="http://github.com/bldeng/LBC">LBC</a> is released under <a href="http://www.gnu.org/licenses">GNU General Public License</a>.</p>
+</div></div>
+<h2>WireFrameFabrication</h2>
+<table class="imgtable"><tr><td>
+<a href="https://github.com/Juyong/FrameFab"><img src="photos/WireFabrication.jpg" alt="alt text" width="1000px" height="366px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="https://github.com/Juyong/FrameFab">WireFrameFabrication</a> is a C++ library for wireframe fabrication sequence design. This code implements the algorithm from the paper <a href="https://dl.acm.org/citation.cfm?id=2982401">FrameFab: Robotic Fabrication of Frame Shapes</a>. WireFrameFabrication is released under <a href="http://www.gnu.org/licenses">GNU General Public License</a>.</p>
+</div></div>
+<h2>$ell_{1}$ Subdivision Scheme for noisy curve and surface datas</h2>
+<table class="imgtable"><tr><td>
+<img src="photos/L1SubdivisionExamples.png" alt="alt text" width="1000px" height="388px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="Papers/L1-Subdivision.zip">$ell_1$-Subdivision</a> is a Python library for curve and surface denoising.</p>
+</div></div>
+<h2>Multichannel Total Variation Minimization</h2>
+<table class="imgtable"><tr><td>
+<img src="photos/MTV.png" alt="alt text" width="1000px" height="266px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="Papers/MTVL1solvers.zip">MTV—$ell_{1}$ Solver</a> is matlab library for solving multichannel total variation based models, especially for image restoration.</p>
+</div></div>
+<h2>Convex Active Contour for Interactive Image Segmentation</h2>
+<table class="imgtable"><tr><td>
+<img src="photos/CAC-Segmentation.png" alt="alt text" width="1000px" height="264px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p><a href="Papers/CAC_Segmentation.zip">CAC—Segmentation</a> is a software for interactive image segmentation by inputing foreground and background seeds as shown in the above figures as red curve and blur curve.</p>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-03-02 17:15:01 CST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

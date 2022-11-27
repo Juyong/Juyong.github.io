@@ -1,0 +1,585 @@
+# jemdoc: menu{MENU}{index.html}
+= Selected Publications
+
+~~~
+Copyright Notice:\n
+This material is presented to ensure timely dissemination of scholarly and technical work.  Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author's copyright. These works may not be reposted without the explicit permission of the copyright holder.
+~~~
+
+You can follow his research work on [https://scholar.google.com/citations?user=_D9aUrgAAAAJ&hl=en Google Scholar], and some open source codes on [https://github.com/USTC3DV/Code-for-Papers GitHub].
+
+== Papers
+~~~
+{}{img_left}{photos/NDR.png}{alt text}{250}{172}
+Neural Surface Reconstruction of Dynamic Scenes with Monocular RGB-D Camera\n
+Hongrui Cai, Wanquan Feng, Xuetao Feng, Yan Wang, *Juyong Zhang*\n
+Thirty-Sixth Conference on Neural Information Processing Systems (*NeurIPS*), 2022.\n
+\[[https://arxiv.org/pdf/2206.15258.pdf paper]\] \[[https://ustc3dv.github.io/ndr/ Project Page]\] \[[https://github.com/USTC3DV/NDR-code Code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/NeRFBlendShape.png}{alt text}{250}{150}
+Reconstructing Personalized Semantic Facial NeRF Models From Monocular Video\n
+Xuan Gao, Chenglai Zhong, Jun Xiang, Yang Hong, Yudong Guo, *Juyong Zhang*\n
+ACM Transactions on Graphics (*SIGGRAPH ASIA*), Vol.41, No.6, 2022.\n
+\[[https://arxiv.org/abs/2210.06108 paper]\] \[[https://ustc3dv.github.io/NeRFBlendShape/ Project Page]\] \[[https://github.com/USTC3DV/NeRFBlendShape-code Code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/SketchPQ.png}{alt text}{250}{128}
+Sketch2PQ: Freeform Planar Quadrilateral Mesh Design via a Single Sketch\n
+Zhi Deng, Yang Liu, Hao Pan, Wassim Jabi, *Juyong Zhang*, Bailin Deng\n
+IEEE Transactions on Visualization and Computer Graphics (*TVCG*), 2022.\n
+\[[https://arxiv.org/abs/2201.09367 paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/SelfRecon.gif}{alt text}{250}{140}
+SelfRecon: Self Reconstruction Your Digital Avatar from Monocular Video\n
+Boyi Jiang, Yang Hong, Hujun Bao, *Juyong Zhang*\n
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (*CVPR, Oral Presentation*), 2022.\n
+\[[https://arxiv.org/abs/2201.12792 paper]\] \[[https://jby1993.github.io/SelfRecon/ Project Page]\] \[[https://github.com/jby1993/SelfReconCode Code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/HeadNeRF.gif}{alt text}{250}{200}
+HeadNeRF: A Real-time NeRF-based Parametric Head Model\n
+Yang Hong, Bo Peng, Haiyao Xiao, Ligang Liu, *Juyong Zhang*\n
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (*CVPR*), 2022.\n
+\[[https://arxiv.org/abs/2112.05637 paper]\] \[[https://hy1995.top/HeadNeRF-Project/ Project Page]\] \[[https://github.com/CrisHY1995/headnerf Code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/NeuralPoints.jpg}{alt text}{250}{140}
+Neural Points: Point Cloud Representation with Neural Fields for Arbitrary Upsampling\n
+Wanquan Feng, Jin Li, Hongrui Cai, Xiaonan Luo, *Juyong Zhang*\n
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (*CVPR*), 2022.\n
+\[[https://arxiv.org/abs/2112.04148 paper]\] \[[https://wanquanf.github.io/NeuralPoints.html Project Page]\] \[[https://github.com/WanquanF/NeuralPoints Code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/NonRigidSurvey.png}{alt text}{250}{144}
+A Survey of Non-Rigid 3D Registration\n
+Bailin Deng, Yuxin Yao, Roberto M. Dyke, *Juyong Zhang*\n
+Computer Graphics Forum (*Eurographics State-of-the-Art Reports*), 2022.\n
+\[[https://arxiv.org/abs/2203.07858 paper]\] \[[https://github.com/bldeng/Nonrigid-Registration-Survey Project Page]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/FRICP.jpg}{alt text}{250}{150}
+Fast and Robust Iterative Closest Point\n
+*Juyong Zhang*, Yuxin Yao, Bailin Deng\n
+IEEE Transactions on Pattern Analysis and Machine Intelligence (*TPAMI*), Vol.44, Issue 7, pages 3450-3466, 2022.\n
+\[[https://arxiv.org/abs/2007.07627 paper]\] \[[https://github.com/yaoyx689/Fast-Robust-ICP code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/ExpressionTransfer.jpg}{alt text}{250}{152}
+Facial Expression Retargeting from Human to Avatar Made Easy\n
+*Juyong Zhang*, Keyu Chen, Jianmin Zheng\n
+IEEE Transactions on Visualization and Computer Graphics (*TVCG*), Vol.28, No.2, pages 1274-1287, 2022.\n
+\[[https://arxiv.org/abs/2008.05110 paper]\] \[[https://github.com/kychern/FacialRetargeting code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/Face-IDR.jpg}{alt text}{250}{152}
+Prior-Guided Multi-View 3D Head Reconstruction\n
+Xueying Wang, Yudong Guo, Zhongqi Yang, *Juyong Zhang*\n
+IEEE Transactions on Multimedia (*TMM*), 2021.\n
+\[[https://arxiv.org/abs/2107.04277 paper]\] \[[https://github.com/XYWang-coder/Prior-Guided-Head-MVS results]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/GE-TVCG.jpg}{alt text}{250}{182}
+GeodesicEmbedding (GE): A High-Dimensional Embedding Approach for Fast Geodesic Distance Queries\n
+Qianwei Xia, *Juyong Zhang*, Zheng Fang, Jin Li, Mingyue Zhang, Bailin Deng, Ying He\n
+IEEE Transactions on Visualization and Computer Graphics (*TVCG*), 2021.\n
+\[[https://arxiv.org/abs/2108.13821 paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/GDR-Net.jpg}{alt text}{250}{125}
+GDR-Net: A Geometric Detail Recovering Network for 3D Scanned Objects\n
+Wanquan Feng, *Juyong Zhang*, Yuanfeng Zhou, Shiqing Xin\n
+IEEE Transactions on Visualization and Computer Graphics (*TVCG*), 2021.\n
+~~~
+
+~~~
+{}{img_left}{photos/AD-NeRF.jpg}{alt text}{250}{110}
+AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis\n
+Yudong Guo, Keyu Chen, Sen Liang, Yong-Jin Liu, Hujun Bao, *Juyong Zhang*\n
+IEEE/CVF International Conference on Computer Vision (*ICCV*), 2021.\n
+\[[https://arxiv.org/abs/2103.11078 paper]\]  \[[https://yudongguo.github.io/ADNeRF/ Project Page]\]  \[[https://github.com/YudongGuo/AD-NeRF code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/Robust_Rigistration.jpg}{alt text}{250}{90}
+A Robust Loss for Point Cloud Registration\n
+Zhi Deng, Yuxin Yao, Bailin Deng, *Juyong Zhang*\n
+IEEE/CVF International Conference on Computer Vision (*ICCV*), 2021.\n
+\[[https://arxiv.org/abs/2108.11682 paper]\]  \[[https://github.com/dengzhi123227/A-robust-registration-loss code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/1D-Flow.jpg}{alt text}{250}{128}
+High-Resolution Optical Flow from 1D Attention and Correlation\n
+Haofei Xu, Jiaolong Yang, Jianfei Cai, *Juyong Zhang*, Xin Tong\n
+IEEE/CVF International Conference on Computer Vision (*ICCV*, *Oral Presentation*), 2021.\n
+\[[https://arxiv.org/abs/2104.13918 paper]\]  \[[https://github.com/haofeixu/flow1d code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/FaceFromX.jpg}{alt text}{250}{146}
+3D Face From X: Learning Face Shape from Diverse Sources\n
+Yudong Guo, Lin Cai, *Juyong Zhang*\n
+IEEE Transactions on Image Processing (*TIP*), Vol.30, pages 3815-3827, 2021.\n
+\[[https://arxiv.org/abs/1808.05323 paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/RMA-Registration.jpg}{alt text}{250}{144}
+Recurrent Multi-view Alignment Network for Unsupervised Surface Registration\n
+Wanquan Feng, *Juyong Zhang*, Hongrui Cai, Haofei Xu, Junhui Hou, Hujun Bao\n
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (*CVPR*), 2021.\n
+\[[https://arxiv.org/abs/2011.12104 paper]\]  \[[https://wanquanf.github.io/RMA-Net.html Project Page]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/StereoPiFU.jpg}{alt text}{250}{176}
+StereoPIFu: Depth Aware Clothed Human Digitization via Stereo Vision\n
+Yang Hong, *Juyong Zhang*, Boyi Jiang, Yudong Guo, Ligang Liu, Hujun Bao\n
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (*CVPR*), 2021.\n
+\[[https://arxiv.org/abs/2104.05289 paper]\]  \[[https://hy1995.top/StereoPIFuProject Project Page]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/CaricatureLandmark.jpg}{alt text}{250}{87}
+Landmark Detection and 3D Face Reconstruction for Caricature using a Nonlinear Parametric Model\n
+Hongrui Cai, Yudong Guo, Zhuang Peng, *Juyong Zhang*\n
+Graphical Models, 2021.\n
+\[[https://arxiv.org/abs/2004.09190 paper]\] \[[https://github.com/Juyong/CaricatureFace code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/PerspectiveCorrection.jpg}{alt text}{250}{125}
+Real-Time Face View Correction for Front-Facing Cameras\n
+Yudong Guo, *Juyong Zhang*, Yihua Chen, Hongrui Cai, Zhangjin Huang, Bailin Deng\n
+Computational Visual Media, Vol.7, pages 437–452, 2021.\n
+~~~
+
+~~~
+{}{img_left}{photos/HandRepresentation.jpg}{alt text}{250}{138}
+Deformation Representation based Convolutional Mesh Autoencoder for 3D Hand Generation\n
+Xinqian Zheng, Boyi Jiang, *Juyong Zhang*\n
+Neurocomputing, Vol.444, pages 356-365, 2021.\n
+\[[paper]\] \[[https://github.com/Juyong/HandRepresentation code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/Geodesic.jpg}{alt text}{250}{240}
+Parallel and Scalable Heat Methods for Geodesic Distance Computation\n
+Jiong Tao, *Juyong Zhang*, Bailin Deng, Zheng Fang, Yue Peng, Ying He\n
+IEEE Transactions on Pattern Analysis and Machine Intelligence (*TPAMI*), Vol.43, No.2, pages 579-594, 2021.\n
+\[[https://arxiv.org/abs/1812.06060 paper]\] \[[https://github.com/bldeng/ParaHeat code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/LSA-Conv.png}{alt text}{250}{109}
+Learning Local Neighboring Structure for Robust 3D Shape Representation\n
+Zhongpai Gao, Junchi Yan, Guangtao Zhai, *Juyong Zhang*, Yiyan Yang, Xiaokang Yang\n
+Proceedings of the 35th AAAI Conference on Artificial Intelligence (*AAAI*), 2021.\n
+~~~
+
+~~~
+{}{img_left}{photos/RGBD-Recognition.jpg}{alt text}{250}{138}
+Robust RGB-D Face Recognition Using Attribute-Aware Loss\n
+Luo Jiang, *Juyong Zhang*, Bailin Deng\n
+IEEE Transactions on Pattern Analysis and Machine Intelligence (*TPAMI*), Vol.42, No.10, Pages 2552-2566, 2020.\n
+\[[https://arxiv.org/abs/1811.09847 paper]\] \[[http://staff.ustc.edu.cn/~juyong/RGBD_dataset.html dataset]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/Caricature-MM.jpg}{alt text}{250}{136}
+Modeling Caricature Expressions by 3D Blendshape and Dynamic Texture\n
+Keyu Chen, Jianmin Zheng, Jianfei Cai, *Juyong Zhang*\n
+ACM International Conference on Multimedia (*ACM MM*), 2020.\n
+\[[https://arxiv.org/abs/2008.05714 paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/BCNet.jpg}{alt text}{250}{138}
+BCNet: Learning Body and Cloth Shape from A Single Image\n
+Boyi Jiang, *Juyong Zhang*, Yang Hong, Jinhao Luo, Ligang Liu, Hujun Bao\n
+European Conference on Computer Vision (*ECCV*), 2020.\n
+\[[https://arxiv.org/abs/2004.00214 paper]\] \[[https://github.com/jby1993/BCNet code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/BodyRepresentation.jpg}{alt text}{250}{170}
+Disentangled Human Body Embedding Based on Deep Hierarchical Neural Network\n
+Boyi Jiang, *Juyong Zhang*, Jianfei Cai, Jianmin Zheng\n
+IEEE Transactions on Visualization and Computer Graphics (*TVCG*), Vol.26, No.8, Pages 2560-2575, 2020.\n
+\[[https://arxiv.org/abs/1905.05622 paper]\] \[[https://github.com/Juyong/DHNN_BodyRepresentation code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/FaceCollection.jpg}{alt text}{250}{132}
+Semi-Supervised 3D Face Representation Learning From Unconstrained Photo Collections\n
+Zhongpai Gao, *Juyong Zhang*, Yudong Guo, Chao Ma, Guangtao Zhai, Xiaokang Yang\n
+IEEE Conference on Computer Vision and Pattern Recognition Workshop on DYNAVIS (*CVPRW, Best Paper Award*), 2020.\n
+\[[https://openaccess.thecvf.com/content_CVPRW_2020/html/w21/Gao_Semi-Supervised_3D_Face_Representation_Learning_From_Unconstrained_Photo_Collections_CVPRW_2020_paper.html paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/AA-DR.jpg}{alt text}{250}{142}
+Anderson Acceleration for Nonconvex ADMM Based on Douglas-Rachford Splitting\n
+Wenqing Ouyang, Yue Peng, Yuxin Yao, *Juyong Zhang*, Bailin Deng\n
+Computer Graphics Forum (Symposium on Geometry Processing), 39(5), 2020.\n
+\[[https://arxiv.org/abs/2006.14539 paper]\] \[[https://github.com/YuePengUSTC/AADR code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/RNRR.jpg}{alt text}{250}{241}
+Quasi-Newton Solver for Robust Non-Rigid Registration\n
+Yuxin Yao, Bailin Deng, Weiwei Xu, *Juyong Zhang*\n
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (*CVPR*, *Oral Presentation*), 2020.\n
+\[[https://arxiv.org/abs/2004.04322 paper]\] \[[https://github.com/Juyong/Fast_RNRR code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/FacePSNet.jpg}{alt text}{250}{173}
+Lightweight Photometric Stereo for Facial Details Recovery\n
+Xueying Wang, Yudong Guo, Bailin Deng, *Juyong Zhang*\n
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (*CVPR*), 2020.\n
+\[[https://arxiv.org/abs/2003.12307 paper]\] \[[https://github.com/Juyong/FacePSNet code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/AANet.jpg}{alt text}{250}{127}
+AANet: Adaptive Aggregation Network for Efficient Stereo Matching\n
+Haofei Xu, *Juyong Zhang*\n
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (*CVPR*), 2020.\n
+\[[https://arxiv.org/abs/2004.09548 paper]\] \[[https://github.com/haofeixu/aanet code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/Vehicle_DoF.jpg}{alt text}{250}{138}
+Vehicle global 6-DoF pose estimation under traffic surveillance camera\n
+Shanxin Zhang, Cheng Wang, Zijian He, QingLi, Xiuhong Lin, Xin Li, *Juyong Zhang*, Chenhui Yang, Jonathan Li,\n
+ISPRS Journal of Photogrammetry and Remote Sensing, Vol.159, pages 114-128, 2020.\n
+\[[https://www.sciencedirect.com/science/article/pii/S0924271619302588 paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/ADMM-AA.jpg}{alt text}{250}{180}
+Accelerating ADMM for Efficient Simulation and Optimization\n
+*Juyong Zhang*, Yue Peng, Wenqing Ouyang, Bailin Deng\n
+ACM Transactions on Graphics (*SIGGRAPH ASIA*), Vol.38, No.6, 2019.\n
+\[[https://arxiv.org/abs/1909.00470 paper]\] \[[https://github.com/bldeng/AA-ADMM code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/PoseEstimation.jpg}{alt text}{250}{141}
+Real-time Head Pose Estimation and Face Modeling From a Depth Image\n
+Changwei Luo, *Juyong Zhang*, Jun Yu, Chang Wen Chen, Shengjin Wang\n
+IEEE Transactions on Multimedia (*TMM*), Vol.21, No.10, Pages 2473-2481, 2019.\n
+\[[https://ieeexplore.ieee.org/document/8662713 paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/RDN.jpg}{alt text}{250}{95}
+Region Deformer Networks for Unsupervised Depth Estimation from Unconstrained Monocular Videos\n
+Haofei Xu, Jianmin Zheng, Jianfei Cai, *Juyong Zhang*\n
+International Joint Conference on Artificial Intelligence (*IJCAI*), 2019.\n
+\[[https://arxiv.org/abs/1902.09907 paper]\] \[[https://github.com/haofeixu/rdn4depth code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/FLBC.jpg}{alt text}{250}{179}
+A Fast Numerical Solver for Local Barycentric Coordinates\n
+Jiong Tao, Bailin Deng, *Juyong Zhang*\n
+Computer Aided Geometric Design (*GMP, Best Paper Award*), Vol.70, Pages 46-58, 2019.\n
+\[[https://www.sciencedirect.com/science/article/pii/S0167839619300202 paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/FaceRepresentation.jpg}{alt text}{250}{225}
+Disentangled Representation Learning for 3D Face Shape\n
+Zi-Hang Jiang, Qianyi Wu, Keyu Chen, *Juyong Zhang*\n
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (*CVPR*), 2019.\n
+\[[https://arxiv.org/abs/1902.09887 paper]\] \[[https://github.com/zihangJiang/DR-Learning-for-3D-Face training code \& trained model]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/SDFilter.jpg}{alt text}{250}{193}
+Static/Dynamic Filtering for Mesh Geometry\n
+*Juyong Zhang*, Bailin Deng, Yang Hong, Yue Peng, Wenjie Qin, Ligang Liu\n
+IEEE Transactions on Visualization and Computer Graphics (*TVCG*), Vol.25, No.4, pages 1774-1787, 2019.\n
+\[[https://arxiv.org/abs/1712.03574 paper]\] \[[https://arxiv.org/src/1712.03574v1/anc/SuppMaterial.pdf supp]\] \[[https://github.com/bldeng/MeshSDFilter code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/3DFaceNet.jpg}{alt text}{250}{140}
+CNN-based Real-time Dense Face Reconstruction with Inverse-rendered Photo-realistic Face Images\n
+Yudong Guo, *Juyong Zhang*, Jianfei Cai, Boyi Jiang, Jianmin Zheng\n
+IEEE Transactions on Pattern Analysis and Machine Intelligence (*TPAMI*), Vol.41, No.6, pages 1294-1307, 2019.\n
+\[[https://arxiv.org/abs/1708.00980 paper]\] \[[Videos/3dface_demo.mp4 demo]\] \[[https://github.com/Juyong/3DFace dataset&results]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/FaceEyeVR.png}{alt text}{250}{146}
+Real-time 3D Face-Eye Performance Capture of a PersonWearing VR Headset\n
+Guoxian Song, Jianfei Cai, Tat-Jen Cham, Jianmin Zheng, *Juyong Zhang*, Henry Fuchs\n
+ACM Multimedia (*ACM MM*) 2018.\n
+\[[Papers/Face-Eye.pdf paper]\] \[[https://github.com/GuoxianSong/EyeFaceDataset dataset]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/AAOptimization.jpg}{alt text}{250}{167}
+Anderson Acceleration for Geometry Optimization and Physics Simulation\n
+Yue Peng, Bailin Deng, *Juyong Zhang*, Fanyu Geng, Wenjie Qin, Ligang liu\n
+ACM Transactions on Graphics (*SIGGRAPH*), Vol.37, No.4, 2018.\n
+\[[https://arxiv.org/abs/1805.05715 paper]\] \[[https://github.com/bldeng/AASolver code]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/face-Reconstruction.jpg}{alt text}{250}{166}
+3D Face Reconstruction with Geometry Details from a Single Image\n
+Luo Jiang, *Juyong Zhang*, Bailin Deng, Hao Li, Ligang Liu\n
+IEEE Transactions on Image Processing (*TIP*), Vol.27, No.10, pages 4756-4770, 2018.\n
+\[[https://arxiv.org/abs/1702.05619 paper]\]  \[[https://github.com/Juyong/SingleImageReconstruction results]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/Caricature.jpg}{alt text}{250}{150}
+Alive Caricature from 2D to 3D\n
+Qianyi Wu, *Juyong Zhang*, Yu-Kun Lai, Jianmin Zheng, Jianfei Cai\n
+IEEE Conference on Computer Vision and Pattern Recognition (*CVPR*), Spotlight Presentation, 2018.\n
+\[[https://arxiv.org/abs/1803.06802 paper]\] \[[https://www.technologyreview.com/s/610714/the-best-of-the-physics-arxiv-week-ending-march-31-2018 The Best of the Physics arXiv by MIT Tech/]\] \[[https://github.com/QianyiWu/Caricature-Data dataset&results]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/Shading-Reconstruction.jpg}{alt text}{250}{168}
+Shading-based Surface Detail Recovery under General Unknown Illumination\n
+Di Xu, Qi Duan, Jianmin Zheng, *Juyong Zhang*, Jianfei Cai, Tat-Jen Cham\n
+IEEE Transactions on Pattern Analysis and Machine Intelligence (*TPAMI*), Vol.40, No.2, pages 423-436, 2018.\n
+\[[Papers/DetailRecovery-PAMI.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/HeadPose.jpg}{alt text}{250}{135}
+Joint Head Pose and Face Landmarks Regression from Depth Images\n
+Jie Wang, *Juyong Zhang*, Changwei Luo, Falai Chen\n
+Computational Visual Media (Honorable Mention Award), Vol.3, No.3. pages 229-241, 2017.\n
+\[[https://link.springer.com/article/10.1007%2Fs41095-017-0082-8 paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/FaceParsing.jpg}{alt text}{250}{158}
+Pixel Level Guided Face Editing with Fully Convolution Networks\n
+Zhenxi Li, *Juyong Zhang*\n
+IEEE International Conference on Multimedia and Expo, 2017.\n
+\[[FaceParsing.pdf paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/FrameFab.jpg}{alt text}{250}{173}
+FrameFab: Robotic Fabrication of Frame Shapes\n
+Yijiang Huang, *Juyong Zhang*, Xin Hu, Guoxian Song, Zhongyuan Liu, Lei Yu, Ligang Liu\n
+ACM Transactions on Graphics (*SIGGRAPH Asia*), 35(6), 2016.\n
+\[[FrameFab.html webpage]\] \[[Papers/FrameFab.pdf paper]\] \[[Papers/FrameFab_Supplementary.pdf supp]\] \[[Videos/FrameFab-high.mp4 video]\] \[[https://github.com/Juyong/FrameFab code]\]
+~~~
+
+~~~
+{}{img_left}{photos/Hand.jpg}{alt text}{250}{115}
+Hand Pose Regression via A Classification-guided Approach\n
+Hongwei Yang, *Juyong Zhang*\n
+Asian Conference on Computer Vision (ACCV), 2016.\n
+\[[Papers/HandTracking-2016.pdf paper]\] \[[Videos/HandTracking-2016.mp4 video]\]
+~~~
+
+~~~
+{}{img_left}{photos/FeatureLearning.jpg}{alt text}{250}{226}
+Euclidean and Hamming Embedding for Image Patch Description with Convolutional Networks\n
+Zishun Liu, Zhenxi Li, *Juyong Zhang*, Ligang Liu\n
+IEEE Conference on Computer Vision and Pattern Recognition Workshops, 2016.\n
+\[[https://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w24/papers/Liu_Euclidean_and_Hamming_CVPR_2016_paper.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/upright.png}{alt text}{250}{150}
+Upright Orientation of 3D Shapes with Convolutional Networks\n
+Zishun Liu, *Juyong Zhang*, Ligang Liu\n
+Graphical Models (Computational Visual Media), 2016.\n
+\[[Papers/Upright.pdf paper]\] \[[https://github.com/zishun/UprightOrientation code]\]
+~~~
+
+~~~
+{}{img_left}{photos/alignment.png}{alt text}{250}{135}
+Locating Facial Landmarks Using Probabilistic Random Forest\n
+Changwei Luo, Zengfu Wang, Shaobiao Wang, *Juyong Zhang*, Jun Yu\n
+IEEE Signal Processing Letters, 22(12), 2015.\n
+\[[Papers/FaceAlignment-2015.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/GuidanceConstruction.png}{alt text}{250}{132}
+Guided Mesh Normal Filtering\n
+Wangyu Zhang, Bailin Deng, *Juyong Zhang*, Sofien Bouaziz, Ligang Liu\n
+Computer Graphics Forum (Proc. Pacific Graphics), 34(7), 2015.\n
+\[[GuidedFilter.html webpage]\] \[[Papers/GuidedFilter.pdf paper]\] \[[Papers/GuidedFilterSupp.pdf supp]\] \[[Papers/GuidedFilter-Slides.pdf slides]\] \[[Papers/GuidedDenoising.mp4 video]\] \[[https://github.com/bldeng/GuidedDenoising code]\]
+~~~
+
+
+~~~
+{}{img_left}{photos/circle.png}{alt text}{250}{96}
+Survey on sparsity in geometric modeling and processing\n
+Linlin Xu, Ruimin Wang, *Juyong Zhang*, Zhouwang Yang, Jiansong Deng, Falai Chen, Ligang Liu\n
+Graphical Models, Vol.82, pages 160-180, 2015.\n
+\[[Papers/Sparsity-Survey.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/TVMeshDenoising.jpg}{alt text}{250}{117}
+Variational Mesh Denoising using Total Variation and Piecewise Constant Function Space\n
+Huayan Zhang, Chunlin Wu, *Juyong Zhang*, Jiansong Deng\n
+IEEE Transactions on Visualization and Computer Graphics (*TVCG*), 21(7), 2015.\n \[[Papers/Denoising-2015.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/ReconDiction.jpg}{alt text}{250}{172}
+Robust Surface Reconstruction via Dictionary Learning\n
+Shiyao Xiong, *Juyong Zhang*, Jianmin Zheng, Jianfei Cai, Ligang Liu\n
+ACM Transactions on Graphics (*SIGGRAPH ASIA*), 33(6), 2014.\n 
+\[[http://staff.ustc.edu.cn/~juyong/DictionaryRecon.html webpage]\] \[[Papers/Xiong.Reconstruction.2014.pdf paper]\] \[[Papers/Reconstruction_Slides.pdf slides]\] \[[Papers/Demo_SigAsia14_Recon.mp4 video]\]
+~~~
+
+~~~
+{}{img_left}{photos/LBC.jpg}{alt text}{250}{123}
+Local Barycentric Coordinates\n
+*Juyong Zhang*^, Balin Deng^, Zishun Liu, Giuseppe Patanè, Sofien Bouaziz, Kai Hormann, Ligang Liu
+(^ joint first authors)\n
+ACM Transactions on Graphics (*SIGGRAPH ASIA*), 33(6), 2014.\n 
+\[[http://staff.ustc.edu.cn/~juyong/LBC.html webpage]\] \[[Papers/LBC.pdf paper]\] \[[Papers/LBC_Slides.pdf slides]\] \[[Papers/LBC_v8.mp4 video]\] \[[https://github.com/bldeng/LBC code]\]
+~~~
+
+~~~
+{}{img_left}{photos/L1-Subdivission.png}{alt text}{250}{183}
+L1-Regression Based Subdivision Schemes For Noisy Data\n
+Ghulam Mustafa, Hao Li, *Juyong Zhang*, Jiansong Deng\n
+Computer Aided Design (SPM 2014)\n 
+\[[Papers/ℓ1-Subdivision.pdf paper]\] \[[Papers/L1-Subdivision-SPM.pdf slides]\] \[[Papers/L1-Subdivision.zip code]\]
+~~~
+
+~~~
+{}{img_left}{photos/RobustInput_Segmentation.jpg}{alt text}{250}{190.5}
+Robust Interactive Image Segmentation via Iterative Refinement\n
+Yao Peng, *Juyong Zhang*, Yancheng Yuan, Shuyuan Zhu, Lu Fang\n
+ICIP, 2014.\n \[[Papers/ICIP_14_Yao.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/ToolPath_Small.png}{alt text}{250}{177.4}
+Iso-level Tool Path Planning for Free-form Surfaces\n
+Qiang Zou, *Juyong Zhang*, Bailin Deng, Jibin Zhao\n
+Computer-Aided Design, Vol. 53: 117-125, 2014.\n \[[Papers/toolPath-Zou.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/CVPR2014_ID1132_XuDi.jpg}{alt text}{250}{191.7}
+Recovering Surface Details under General Unknown Illumination Using Shading and Coarse Multi-view Stereo\n
+Di Xu, Qi Duan, Jianming Zheng, *Juyong Zhang*, Jianfei Cai, Tat-Jen Cham\n
+IEEE Conference on Computer Vision and Pattern Recognition (*CVPR*), 2014.\n \[[Papers/CVPR2014_XuDi.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/LocalMod.png}{alt text}{250}{187.5}
+Exploring Local Modifications for Constrained Meshes\n
+Bailin Deng, Sofien Bouaziz, Mario Deuss, *Juyong Zhang*, Yuliy Schwartzburg, Mark Pauly\n
+Computer Graphics Forum 32(2), (*Eurographics, Best Paper Honourable Mention*), 2013.\n 
+\[[http://lgg.epfl.ch/publications/2013/LocalMod/index.php webpage]\]
+~~~
+
+~~~
+{}{img_left}{photos/tog12-title.jpg}{alt text}{250}{108}
+Variational Mesh Decomposition\n
+*Juyong Zhang*, Jianmin Zheng, Chunlin Wu, Jianfei Cai\n
+ACM Transactions on Graphics (Presented at *SIGGRAPH* 2012), 31(3), 2012.\n 
+\[[Papers/MeshDecomposition.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/TIP-1.jpg}{alt text}{250}{167.7}
+Robust Interactive Image Segmentation Using Convex Active Contours\n
+Nguyen Thi Nhat Anh, Jianfei Cai, *Juyong Zhang*, Jianmin Zheng\n
+IEEE Transactions on Image Processing (*TIP*), 21(8), 2012.\n 
+\[[Papers/CAC_Segmentation.pdf paper]\] \[[Papers/CAC_Segmentation.zip software]\]
+~~~
+
+~~~
+{}{img_left}{photos/ALM_Surface.png}{alt text}{250}{222.5}
+Augmented Lagrangian Method for Total Variation Based Image Restoration and Segmentation Over Triangulated Surfaces\n
+Chunlin Wu, *Juyong Zhang*, Yuping Duan, Xue-Cheng Tai\n
+Journal of Scientific Computing, 50(1), 2012.\n \[[Papers/ALM_Surface.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/ALM-Restoration.png}{alt text}{250}{128}
+Augmented Lagrangian Method for Total Variation Restoration with Non-quadratic Fidelity\n
+Chunlin Wu, *Juyong Zhang*, Xue-Cheng Tai\n
+Inverse Problems and Imaging, 5(1), 2011.\n \[[Papers/ALM_NonQuadratic.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/TVCG_CRW.png}{alt text}{250}{228.3}
+Interactive Mesh Cutting Using Constrained Random Walks\n
+*Juyong Zhang*, Jianmin Zheng, Jianfei Cai\n
+IEEE Transactions on Visualization and Computer Graphics (*TVCG*), 17(3), 2011.\n \[[Papers/MeshCutting.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/ALM_multichannel.jpg}{alt text}{250}{140}
+Fast Optimization for Multichannel Total Variation Minimization with Non-quadratic Fidelity\n
+*Juyong Zhang*, Chunlin Wu\n
+Signal Processing, 91(8), 2011. \n
+\[[Papers/MTV_Minimization.pdf paper]\] \[[Papers/MTVL1solvers.zip code]\]
+~~~
+
+~~~
+{}{img_left}{photos/CVPR_10.png}{alt text}{250}{119}
+A Diffusion Approach to Seeded Image Segmentation\n
+*Juyong Zhang*, Jianmin Zheng, Jianfei Cai\n
+IEEE Conference on Computer Vision and Pattern Recognition (*CVPR*), 2010.\n \[[Papers/CVPR2010_Diffusion_Segmentation.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/MeshSnapping.jpg}{alt text}{250}{212.5}
+Mesh Snapping: Robust Interactive Mesh Cutting Using Fast Geodesic Curvature Flow\n
+*Juyong Zhang*, Chunlin Wu, Jianfei Cai, Jianmin Zheng, Xue-Cheng Tai\n
+Computer Graphics Forum (Proc. Eurographics), 29(2), 2010.\n \[[Papers/MeshSnapping.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{photos/TCSVT_progressive.png}{alt text}{250}{117}
+Progressive Coding and Illumination and View DependentTransmission of 3-D Meshes Using R-D Optimization\n
+Wei Guan, Jianfei Cai, *Juyong Zhang*, Jianmin Zheng\n
+IEEE Transactions on Circuits and Systems for Video Technology (*TCSVT*), 20(4), 2010.\n \[[Papers/MeshCoding.pdf paper]\]
+~~~
+
+== Technical Reports
+
+~~~
+{}{img_left}{photos/AA-KMeans.jpg}{alt text}{250}{143}
+Fast K-Means Clustering with Anderson Acceleration\n
+*Juyong Zhang*, Yuxin Yao, Yue Peng, Hao Yu, Bailin Deng\n
+Technical report, May. 2018.\n
+\[[https://arxiv.org/abs/1805.10638 paper]\]\n
+~~~
+
+~~~
+{}{img_left}{photos/FaceAlignment.jpg}{alt text}{250}{125}
+Deep Face Feature for Face Alignment\n
+Boyi Jiang, *Juyong Zhang*, Bailin Deng, Yudong Guo, Ligang Liu\n
+Technical report, Aug. 2017.\n
+\[[https://arxiv.org/abs/1708.02721 arXiv]\] \[code\]\n
+~~~

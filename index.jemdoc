@@ -1,0 +1,46 @@
+# jemdoc: menu{MENU}{index.html}  
+==Juyong Zhang
+
+~~~
+{}{img_left}{photos/photo-juyong.png}{alt text}{240}{300}{http://staff.ustc.edu.cn/~juyong/} \n 
+*Affiliations*:\n
+Professor\n
+[http://gcl.ustc.edu.cn/ Graphics&Geometric Computing Laboratory] \n
+[http://math.ustc.edu.cn/ENGLISH/list.htm School of Mathematical Sciences] \n
+[http://en.ustc.edu.cn/ University of Science and Technology of China (USTC)]\n\n
+*Office*:\n
+Room 1207 \n
+Management and Research Building \n 
+East Campus, University of Science and Technology of China \n
+Hefei, Anhui, 230026 China\n\n
+*Email*:\n
+juyong AT ustc.edu.cn
+~~~
+
+~~~
+{Biography}
+I am a professor(特任教授/博导) and a recipient of Excellent Young Scholars, NSF-China(国家优青). I received my Ph.D. degree in School of Computer Science and Engineering from Nanyang Technological University, Singapore, under the supervision of Prof. Jianfei Cai and Prof. Jianmin Zheng. Before that, I got my Bachelor degree in Computer Science and Engineering from USTC in 2006. From 2011 to 2012, I first worked as an intern student and then a Postdoctoral Research Fellow in [http://lgg.epfl.ch/ LGG] of EPFL, Switzerland. Since 2012, I have been a faculty member in the School of Mathematical Sciences.
+~~~
+
+~~~
+{Research}
+Our group mainly conducts research at the intersection of Vision, Graphics, and AI with a special focus on capturing, modeling and synthesizing objects, humans and large-scale scenes. Specifically, we are interested in the following topics:
+- Graphics \& Vision: Digital Human Modeling and Synthesis, 3D Reconstruction and Rendering
+- Deep Learning \& Neural Representation: Geometric Learning, Neural Rendering
+- Numerical Optimization: Sparse Optimization, Parallel\/Scalable Optimization
+~~~
+
+~~~
+{Openings}
+Our group is always looking for self-motivated associate researcher, Postdoc, Ph.D, master and undergraduate students. If you are interested in the above listed topics and want to join our group, please drop me an [juyong@ustc.edu.cn email].
+
+课题组招收特任副研究员、博士后、博士生、硕士生和对科研感兴趣的本科生（数学、计算机、信息、物理等背景皆可）。如果你对三维视觉、计算机图形学，具体来说对真实物理世界的高效高保真三维数字化、超写实虚拟数字世界的创建生成感兴趣，并希望加入我们课题组，欢迎通过[juyong@ustc.edu.cn 邮件]联系与咨询。
+~~~
+
+~~~
+{Professional Activities}
+- Associate Editor: [https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046 IEEE Transactions on Multimedia](2021.02-present), [https://link.springer.com/journal/371 The Visual Computer](2018-present).
+- Program Chair: [http://cadcg2021.icrp.xjtu.edu.cn/ CAD/Graphics] 2021, [http://gdc21.csiam-gdc.cn/ 全国几何设计与计算学术会议] 2021.
+- Program Committee Member: SGP 2015, VCIP 2016, CAD/Graphics 2017\/2019, GMP 2018\/2019\/2020\/2021, SPM 2019\/2020\/2021, CVM 2020\/2021\/2022.
+~~~
+
