@@ -54,7 +54,16 @@
       const body = document.createElement("div"); body.className = "publication-body";
       const year = document.createElement("span"); year.className = "publication-year"; year.textContent = pub.year;
       const title = document.createElement("h3"); title.textContent = pub.title;
-      const authors = document.createElement("p"); authors.className = "publication-authors"; authors.textContent = pub.authors;
+      const authors = document.createElement("p"); authors.className = "publication-authors";
+      pub.authors.split(/(Juyong Zhang)/g).forEach((part) => {
+        if (part === "Juyong Zhang") {
+          const highlightedAuthor = document.createElement("strong");
+          highlightedAuthor.textContent = part;
+          authors.append(highlightedAuthor);
+        } else {
+          authors.append(document.createTextNode(part));
+        }
+      });
       const venue = document.createElement("p"); venue.className = "publication-venue"; venue.textContent = pub.venue;
       const tags = document.createElement("div"); tags.className = "publication-tags";
       pub.categories.forEach((key) => { const tag = document.createElement("span"); tag.textContent = label(key); tags.append(tag); });
