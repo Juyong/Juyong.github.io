@@ -17,7 +17,7 @@
   function tagsFor(pub) {
     const text = `${pub.title} ${pub.venue}`.toLowerCase();
     const tags = [];
-    if (/avatar|human|face|head|portrait|body|cloth|caricature|expression|talking/.test(text)) tags.push("human");
+    if (/\b(?:avatar\w*|human\w*|face\w*|head\w*|portrait\w*|body|bodies|cloth\w*|caricature\w*|expression\w*|talking)\b/.test(text)) tags.push("human");
     if (/scene|nerf|gaussian|slam|reconstruction|render|dynamic|lidar|world|neural field|depth/.test(text)) tags.push("scene");
     if (/light|optic|lens|shadow|caustic|imaging|photometric|illumination|display|structured light/.test(text)) tags.push("imaging");
     if (/registr|geometr|mesh|point cloud|surface|optimization|geodesic|alignment|filter|barycentric|segmentation/.test(text)) tags.push("geometry");
